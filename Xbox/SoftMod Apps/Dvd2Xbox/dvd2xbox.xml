@@ -1,0 +1,79 @@
+<dvd2xbox>
+	<main>
+		<!-- Enable auto detection of wether f: and/or g: drives are present. !-->
+		<!-- Slows down the startup a little bit if activated.                !-->
+		<!-- Overwrites the values in the settings menu.                      !-->
+		<!-- 0 disabled / 1 enabled                                           !-->
+		<autodetectHDD>1</autodetectHDD>
+		
+		<!-- Configure the cdda title format. Available variables: !-->
+		<!-- ${TRACK}       : Track number with leading zero       !-->
+     		<!-- ${TRACKARTIST} : Artist of the selected track         !-->
+		<!-- ${DISCARTIST}  : Artist of the whole cd               !-->
+		<!-- ${TITLE}       : Track title                          !-->
+		<trackformat>${TRACK}-${TRACKARTIST}-${TITLE}</trackformat>
+	</main>
+
+	<!-- Put in all directories you would like to have as destination folders. Only the e: drive is      !-->
+	<!-- enabled per default (if autodetectHDD is 0). To see the f: and g: drive entries launch dvd2xbox !-->
+	<!-- press the white button and enable f: and/or g: (make sure that the drives are formatted).       !-->
+	<dumpdirs>
+		<dir>e:\</dir>
+		<dir>e:\games\</dir>
+		<dir>e:\music\</dir>
+		<dir>f:\</dir>
+		<dir>f:\games\</dir>
+		<dir>f:\music\</dir>
+		<dir>g:\</dir>
+		<dir>g:\games\</dir>
+		<dir>g:\music\</dir>
+	</dumpdirs>
+
+	<!-- This directories will be searched for installed games for the gamemanager. It only looks for games !-->
+	<!-- directly installed below this directories and no level deeper !-->
+	<!-- f:\games\foo\default.xbe will be found 	!-->
+	<!-- f:\games\foo\ba\default.xbe won't be found !-->
+	<gamedirs>
+		<dir>e:\games</dir>
+		<dir>f:\games</dir>
+		<dir>g:\games</dir>
+	</gamedirs>
+
+	<network>
+
+		<!-- These settings configure the network interface of your xbox   !-->
+		<!-- Let it untouched to obtain the values from your dash settings !-->
+		<xboxip>-</xboxip>
+		<netmask>-</netmask>
+		<gateway>-</gateway>
+	
+		<!-- IP of a freedb mirror !-->
+		<cddbip>195.37.77.133</cddbip>
+	</network>
+      <smb>
+		<!-- Use this settings to connect to a windows share. These settings should be similar to XBMC.       !-->
+		<!-- Don't forget that WinXP requires to alter the user privileges on two tabs (access and security). !-->
+		<!-- workgroup : workgroup which dvd2xbox uses to login to a server.        !-->
+    		<!-- winsserver: if you run one you can set the ip here (if you don't know  !-->
+    		<!--             what it is, leave it as it is).                            !-->
+		<!-- you can use the following formats: !-->
+            <!-- smb://domain;user:password@ip/share/directory/ !-->
+            <!-- smb://user:password@ip/share/ !-->
+            <!-- if guest/public access is enabled: !-->
+            <!-- smb://ip/ !-->
+
+		<workgroup>WORKGROUP</workgroup>
+		<winsserver>-</winsserver>
+		<url>smb://pups:pups@192.168.1.20/WUTemp/</url>
+	</smb>
+	<ftpserver>
+		<!-- This settings configure dvd2xbox ftp server xbfillezilla. !-->
+		<!-- Username and password should be at least 4 characters.    !-->
+
+		<username>xbox</username>
+		<password>xbox</password>
+		<max_users>2</max_users>
+	</ftpserver>
+</dvd2xbox>
+
+

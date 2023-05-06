@@ -1,0 +1,18 @@
+# 
+# default.acl
+# processed by all game titles which doesn't have a specific title acl file.
+#
+# Serial: 2004031400
+#
+
+CP|${DEST}\default.xbe|${DEST}\default.xbe_orig|
+# Media patch long hex
+HR|*.xbe|1|744BE8CAFDFFFF85C07D0633C05050EB44F605|744BE8CAFDFFFF85C0EB0633C05050EB44F605|
+# Media patch short hex
+HR|*.xbe|1|E8CAFDFFFF85C07D|E8CAFDFFFF85C0EB|
+# FATX Detection
+HR|*.xbe|1|4641545800000000443A5C|0000000000000000000000|
+# Media check 1
+SM|*.xbe|C00001FF|
+# All game regions
+SR|*.xbe|00000007|
