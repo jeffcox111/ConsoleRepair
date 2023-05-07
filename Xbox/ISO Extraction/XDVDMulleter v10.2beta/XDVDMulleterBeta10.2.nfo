@@ -1,0 +1,65 @@
+Badsheepy
+  ÚÄÄÄÂÄÄÄÂÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄ¿       __               __
+  ³ Ä ³ Ä ³ ÄÂ´ ÄÄÂ ÄÂ´ Â ÂÂ ÂÙÄÄÂÄÙ       \ \  _________  / /__
+  ³ ÚÄ´ Â ´ ÄÁÁÄÄ ³ ÄÁ´ ³ ³³ ÃÄÄ ³          \ \/ /|    \ \/ /   \
+  ³ ³ ÀÄÁÄÁÄÄÄÄÄÄÄÁÄÄÄ´ ÃÄÙ³ ÃÄÄÄÙ          /    \|  |  \  /  |  \
+  ÀÄÙ                 ÀÄÙ  ÀÄÙ             /__/\  \_____/\/|_____/
+      Û     Û   ÚÄÄÄÂÄÄÄÂÄÄÄ¿   ÚÄÄÄ¿   ÚÄÄÄÄÄÄÄ\  \ÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄ¿
+     ÛÛÛ° °ÛÛÛ  ³°°°³°°°³°°°³   ³°°°³   ³°°°°°°°³°°°°°°°³°°°°°°°³°°°°°°°³
+    °ÛÛÛÛ ÛÛÛÛ° ³±±±³±±±³±±±³   ³±±±³   ³±±±³±±±³±±±³±±±³±±±³±±±³±±±³±±±³
+    ±ÛÛÛÛÛÛÛÛÛ± ³²²²³²²²³²²²³   ³²²²³   ³²²²ÀÄÂÄ´²²²ÃÄÄÄ´²²²ÀÄÂÄ´²²²³²²²³
+   °ÛÛÛÛÛÛÛÛÛÛÛ°³ÛÛÛ³ÛÛÛ³ÛÛÛÃÄÄÄ´ÛÛÛÃÄÄÄ´ÛÛÛÛÛ³ ³ÛÛÛ³   ³ÛÛÛÛÛ³ ³ÛÛÛÛÛÛÄ´
+   ±ÛÛÛÛÛÛÛÛÛÛÛ±³ÛÛÛ³ÛÛÛ³ÛÛÛ³ÛÛÛ³ÛÛÛ³ÛÛÛ³ÛÛÛÚÄÁÄ´ÛÛÛ³   ³ÛÛÛÚÄÁÄ´ÛÛÛ³ÛÛÛ³
+  °ÛÛÛÛ±ÛÛÛ±ÛÛÛÛ³²²²³²²²³²²²³²²²³²²²³²²²³²²²³²²²³²²²³   ³²²²³²²²³²²²³²²²³
+  ±ÛÛÛÛ²ÛÛÛ²ÛÛÛÛ²±±±³±±±³±±±³±±±³±±±³±±±³±±±³±±±³±±±³   ³±±±³±±±³±±±³±±±³
+ °ÛÛÛÛ²  Û  ²ÛÛÛ±°°°°°°°³°°°°°°°³°°°°°°°³°°°°°°°³°°°³   ³°°°°°°°³°°°³°°°³
+ ±ÛÛÛÛ       ÛÛÛÛ± ÄÄÄÄÄ³/ÄÄÄÄÄÄ³/ÄÄÄÄÄÄÁÄÄÄÄÄÄ\³/ÄÄÙ   ÀÄÄÄÄÄÄ\³/ÄÄÁÄÄÄÙ
+ ÛÛÛÛ²       ²ÛÛÛÛ
+ ÛÛÛÛ         ÛÛÛÛ      "Business in the front, party in the back!"
+ °ÛÛ           ÛÛ°
+  Û²           ²Û-OEP                       RELEASED ON 28/08/2007
+
+       °°        °°        °°        °°        °°        °°       °°°
+ ÚÄÂÄÄÄÂÄÄÄÄÄÄÄ¿±  ±      ±  ±      ±  ±      ±  ±      ±  ±     ±   ±
+±³ ³ ³ ³ ÂÙ³ ³ ³ÛÛÛÛ±ßÛÛÛÛÛÛÛÛ±ßÛÛÛÛÛÛÛÛ±ßÛÛÛÛÛÛÛÛ±ßÛÛÛÛÛÛÛÛ±ßÛÛÛÛÛÛÛÛ±ßÛ
+ ÀÄ´ ÃÄÁÄÙ ÀÄÄÄÙ     ²  ²      ²  ²      ²  ²      ²  ²      ²  ²      ²
+  ²ÀÄÙ      ²²        ²²        ²²        ²²        ²²        ²²        ²
+
+
+Welcome to another exciting installment of XDVDMulleter!                          
+
+XDVDMulleter Beta 10 - the 'I can't be bothered to implement the stuff I haven't done yet' edition
+
+Done in 10.2:
+Fixed CRC check for games not in database
+
+Done since XDVDMulleter Beta 9.7:
+
+xbox 1 stuff works properly again
+ISO stealth checking stuff is cached for better performance and code cleanup
+Fixes video and pfi based on SS details
+More user friendly prompts and errors
+Half implemented debug output (yeah, i got bored and didnt finish it)
+New ss validation check for bad SS file (thanks to liquidsky)
+Offer to fix ss on games with known ss but no known ini for that SS
+Check ini file exists before crc check
+Rip inis to different folder than dled folder (to avoid weird confusions)
+Multiple database sources possible in case main site goes down.
+
+How to make your site host the XDVDMulleter database:
+Database format is deliciously simple. Copy all Ini files, put them in folder. Whatever the web address is of that folder, that is the INI database url..
+Copy all stealth files, put them in folder also (same or different, you decide). The address of that is the stealth URL.
+
+Any questions, #fw or #stealth360 on efnet
+
+
+Probably more fixed, changed etc than I can remember. But its mostly the same, just nicer. Autofix is a lot lovelier now. Most of the stuff I really wanted to implement I lost motivation to finish, so it will most likely be in the next version. If someone wants to attempt a mono port before I get around to it (for linux/multi platform support) please contact me at the channels mentioned above, It should be pretty simple, but if possible id like to keep the codebase the same, which will require a whole load of #defines.
+
+Thanks to all the people in the 360 scene, all the people in #mullets, and all the people testing, debugging and submitting bug reports for mulleter. 
+
+And now to name people by name so they dont complain at me like in the last release:
+
+Thanks to: Gdogg, OEP, n8, brain, dcman, vinnyp, mrh, frito, ramp, finn, zylon, iceberg and jrx
+Also thanks to: Man1fest, Tone, Schtrom, Redline99, Iriez and xbins, liquidsky, Devils360 and of course c4eva.
+
+And a few more thanks to the people on xboxhacker doing the real hard work :)
